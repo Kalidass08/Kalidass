@@ -8,8 +8,12 @@ int main()
         printf("vowel");
         
     }
-    else
-    printf("consonant");
+    else if(k == '!' || k == '@' || k == '#' || k == '$' || k == '%' || k == '^' || k == '&' || k == '*' || k == '(' || k == ')' || k == '-')
+  {    
+      printf("invalid");
+  }
+  else
+  printf("consonant");
     return 0;
 }
- 
+    
